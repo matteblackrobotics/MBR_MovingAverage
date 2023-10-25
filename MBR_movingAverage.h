@@ -1,12 +1,12 @@
-#ifndef MBR_movingAverage_h
-#define MBR_movingAverage_h
+#ifndef MBR_MovingAverage_h
+#define MBR_MovingAverage_h
 
 #include <Arduino.h>
 
-class MovingAverage
+class MBR_MovingAverage
 {
     public:
-        MovingAverage(const int mSize);
+        MBR_MovingAverage(const int mSize);
         float movingAverage(float inputData);
         void reset();
         void printAverage();
